@@ -1,0 +1,45 @@
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+pros:
+1. we can commit the git at each logic is updated or changed.
+2. We can commit the code with some basic intervals of time like a day.
+Cons:
+1. One should not wait for a long time to commit the code.
+2. We should not commit the code at less intervals like an hour.
+3. We should not commit the code with some little changes like 1 or 2 lines.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Version control systems are specifically for tracking and saving the code at each commits so that if any problem ocuurs in current version we can compare it with previous version which has been working well. In the case google docs people just use this as documentaion purpose so that it may be information about something not code so it does not make much sense to track changes to multiple files at once.
+
+How can you use the commands git log and git diff to view the history of files?
+
+git log : To get the history of commits so that i can access the information like no.of deletes and insertions in a particular commit compare to other commit for this i have to use commit id.
+git diff : To know the difference between the commits like no.of inserts and delets and to know the typo errors and check if there are any logical errors.
+
+How might using version control make you more confident to make changes that could break something?
+
+well now i can see the where the bug is occuring so that i can change the code and fix the bug.
+
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+To understand how to use git and use it for my own projects,code etc version controll.
+
+
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+
+In staging area we add the filles which we want to commit but these are not really added to the working directory. It offers to add the multiple files with one commit which are connected logically no need of different commit messages.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+At staging area we can see all the files which are added to be commit using git status. It will work as an index for the changes.

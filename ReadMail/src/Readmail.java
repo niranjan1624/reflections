@@ -32,7 +32,7 @@ public class Readmail {
 	
 	public static void TraverseInbox()
     {
-   	System.out.println("traverse method..");
+   	System.out.println("traverse methniranjanod..");
         Store store = null;
         Message messages[] = null;
         Properties props = System.getProperties();
